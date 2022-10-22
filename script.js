@@ -28,6 +28,14 @@ const createTask = (event) =>{
 
   //** agregar mos un hijo al html usamos apprndChild(hijo en html)*/
     list.appendChild(task)
+
+//** *//   
+ //! Existen otros métodos que podemos utilizar para manipular nodos:
+ //?  insertBefore(padre, hijo): Coloca un nodo antes del otro
+ //?  replaceChild(elemento1, elemento2): Sustituye el nodo del elemento 1 por el nodo del elemento 2
+ //?  removeChild(elemento): Remueve un nodo del árbol 
+//** *//
+
 }
 
 buton.addEventListener("click", createTask)
