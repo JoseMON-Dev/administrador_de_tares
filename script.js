@@ -21,7 +21,7 @@ const createTask = (event) =>{
   titleTask.textContent = value;
   taskContent.appendChild(titleTask);
   console.log(taskContent);
-  //** agregar mos un hijo al html usamos apprndChild(hijo en html)*/
+  //** agregar mos un hijo al html usamos appendChild(hijo en html)*/
   list.appendChild(task);
   task.appendChild(taskContent);
 
