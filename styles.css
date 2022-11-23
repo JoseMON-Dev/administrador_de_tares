@@ -15,7 +15,7 @@ main {
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 
 form {
@@ -31,6 +31,7 @@ form {
   border-radius: 25px;
   background-color: #fff;
   padding: 25px;
+  margin-left:100px ;
 }
 
 .title {
@@ -46,7 +47,7 @@ form {
   padding: 10px;
   border: 1px solid #eee;
   outline: none;
-  width: 65%;
+  width: 40%;
 }
 
 .inputForm::placeholder {
@@ -56,6 +57,7 @@ form {
 .inputDate{
   margin-right: 1rem;
   margin-left: 1rem;
+  width: 25%;
 }
 
 .btnCreate {
@@ -129,4 +131,10 @@ form {
 
 .noTasks {
   font-size: 48px;
+}
+
+.date{
+  width:  100%;
+  padding: 15px;
+
 }

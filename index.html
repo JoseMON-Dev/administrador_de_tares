@@ -18,6 +18,7 @@
         <div>
           <form action="">
             <input
+              required
               type="text"
               name="task"
               placeholder="Nombre de la tarea"
@@ -29,7 +30,8 @@
             type="date"
             name="date"
             class="inputDate"
-            data-form-input
+            placeholder="YYYY/MM/DD"
+            data-form-date
             />
             <button type="submit" class="btnCreate" data-form-btn>
               Agregar <i class="fas fa-plus-circle"></i>
@@ -41,6 +43,8 @@
         </ul>
       </div>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
     <script type="module"src="./script.js"></script>
   </body>
 </html>
